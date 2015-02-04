@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0434C792BEF0825F48D4A7A0 /* TBXML+Compression.h in Headers */ = {isa = PBXBuildFile; fileRef = 330EAAADF1B94ABCCEFC0202 /* TBXML+Compression.h */; };
+		08BACF6A228A421BA4E4FEF8 /* TBXML+HTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0358C9C2276ECFD87070D681 /* TBXML+HTTP.h */; };
+		092AD33F90DA88A5F78A18DC /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 5400A5F4609D48DDC285F82F /* TBXML+Compression.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		0AB6DB9C18F5905CAD045B6F /* TBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = D12EA594EA4A53B8D58DED6B /* TBXML.h */; };
+		0BE3BDDEF5D7E9C0E85A4BB5 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 928A1D9234997BD22A7001B6 /* TBXML+HTTP.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		19E2293FEE21EBD87E9C4A16 /* Pods-MMRSSReaderTests-TBXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF45E72821F202D30D3004B /* Pods-MMRSSReaderTests-TBXML-dummy.m */; };
+		1A87ABC025531DC65AFF822C /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 5400A5F4609D48DDC285F82F /* TBXML+Compression.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1D2E71976F94F955973BED06 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D895F85061D5E0D4E8725F0 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1F20F41AF2F3FB7803CC294B /* Pods-MMRSSReaderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F41107CF10B082595595928 /* Pods-MMRSSReaderTests-dummy.m */; };
+		20E550E7D3A8DFB2BE2ED4A1 /* Pods-TBXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 414A958BAD708DE781530A65 /* Pods-TBXML-dummy.m */; };
+		23DAEEC5782F29737A7EE4FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B8F4DB8731C75B303C496F /* Foundation.framework */; };
+		29B63F3E1125F4F76219257B /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D895F85061D5E0D4E8725F0 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		325AC1FB16FD8182425A0F2B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C5D5829BBA1F867B6321EA /* Pods-dummy.m */; };
+		43C90F551178FEEB3B356C33 /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 5400A5F4609D48DDC285F82F /* TBXML+Compression.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		448C0DE4FAE055D12C909152 /* Pods-MMRSSReader-TBXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D1A13BE0BB4DD3CB63F584 /* Pods-MMRSSReader-TBXML-dummy.m */; };
+		4D732E29E35647746DDD3BF9 /* Pods-MMRSSReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5493756F3E96912E383A7A5 /* Pods-MMRSSReader-dummy.m */; };
+		6C554788EC7B8027E45697D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B8F4DB8731C75B303C496F /* Foundation.framework */; };
+		7B9C986BCFDAA9ECA1497853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B8F4DB8731C75B303C496F /* Foundation.framework */; };
+		8E6495A769043469E78283D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B8F4DB8731C75B303C496F /* Foundation.framework */; };
+		9006045CE6DA8594D45E889A /* TBXML+HTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0358C9C2276ECFD87070D681 /* TBXML+HTTP.h */; };
+		9BBACA354F802607DC50CF4F /* TBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = D12EA594EA4A53B8D58DED6B /* TBXML.h */; };
+		9E5891CD53B6EBDF3E1878F0 /* TBXML+Compression.h in Headers */ = {isa = PBXBuildFile; fileRef = 330EAAADF1B94ABCCEFC0202 /* TBXML+Compression.h */; };
+		A6ED3576CE980B83DA9BE3B2 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D895F85061D5E0D4E8725F0 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B8451D77C9040894B64D7765 /* TBXML+Compression.h in Headers */ = {isa = PBXBuildFile; fileRef = 330EAAADF1B94ABCCEFC0202 /* TBXML+Compression.h */; };
+		CF6CBF7A8259CBD45C58B725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B8F4DB8731C75B303C496F /* Foundation.framework */; };
+		E5A72D773253F1D4EF2DF71F /* TBXML+HTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0358C9C2276ECFD87070D681 /* TBXML+HTTP.h */; };
+		EAB64C679F839C8190EEFA14 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 928A1D9234997BD22A7001B6 /* TBXML+HTTP.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		ED0CD05A73FF386927D115F2 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 928A1D9234997BD22A7001B6 /* TBXML+HTTP.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F28338F8A378790F51F4A8B4 /* TBXML.h in Headers */ = {isa = PBXBuildFile; fileRef = D12EA594EA4A53B8D58DED6B /* TBXML.h */; };
+		F81052A7E84408A927DE75F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B8F4DB8731C75B303C496F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BD97E11B2C871597D4839A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA955D876F63BBF6EF02D1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 321CD58A29866691778898EC;
+			remoteInfo = "Pods-TBXML";
+		};
+		81BECD013626B04E2C67E970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA955D876F63BBF6EF02D1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31CDC6C05DAF5FD7643A871D;
+			remoteInfo = "Pods-MMRSSReaderTests-TBXML";
+		};
+		EE3ED09B02C4EAC5F831FBA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA955D876F63BBF6EF02D1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08654D567AC378F412C0EFE7;
+			remoteInfo = "Pods-MMRSSReader-TBXML";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0358C9C2276ECFD87070D681 /* TBXML+HTTP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBXML+HTTP.h"; path = "TBXML-Headers/TBXML+HTTP.h"; sourceTree = "<group>"; };
+		051862EE259E5B0AF0DE2571 /* Pods-MMRSSReaderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMRSSReaderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		07C5D5829BBA1F867B6321EA /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		09D1A13BE0BB4DD3CB63F584 /* Pods-MMRSSReader-TBXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMRSSReader-TBXML-dummy.m"; sourceTree = "<group>"; };
+		0B66A47D39B6A7DE7309C901 /* Pods-MMRSSReader-TBXML-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMRSSReader-TBXML-Private.xcconfig"; sourceTree = "<group>"; };
+		0B896332FDB834D39FDB6BF3 /* Pods-MMRSSReader-TBXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMRSSReader-TBXML-prefix.pch"; sourceTree = "<group>"; };
+		154BAA263579F0EEF1FB528B /* Pods-MMRSSReader-TBXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMRSSReader-TBXML.xcconfig"; sourceTree = "<group>"; };
+		1566C0E170D3423D41528849 /* libPods-TBXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TBXML.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D9169C3FCC8EBCA2CC0868 /* Pods-MMRSSReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMRSSReader.debug.xcconfig"; sourceTree = "<group>"; };
+		1CE910338ABA9F807C70F55D /* Pods-MMRSSReaderTests-TBXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-MMRSSReaderTests-TBXML-prefix.pch"; path = "../Pods-MMRSSReaderTests-TBXML/Pods-MMRSSReaderTests-TBXML-prefix.pch"; sourceTree = "<group>"; };
+		1D718C2484C8B69A90403954 /* libPods-MMRSSReaderTests-TBXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMRSSReaderTests-TBXML.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BEBF576CC55BDF10493893 /* Pods-TBXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-TBXML-prefix.pch"; path = "../Pods-TBXML/Pods-TBXML-prefix.pch"; sourceTree = "<group>"; };
+		2DC98530A2DE5E9FDBC607BE /* Pods-MMRSSReaderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMRSSReaderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		330EAAADF1B94ABCCEFC0202 /* TBXML+Compression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBXML+Compression.h"; path = "TBXML-Headers/TBXML+Compression.h"; sourceTree = "<group>"; };
+		358A64E23B75202A7C0E9BA8 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BAD6B6A4EB9BC2E55FFDAA8 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		414A958BAD708DE781530A65 /* Pods-TBXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-TBXML-dummy.m"; path = "../Pods-TBXML/Pods-TBXML-dummy.m"; sourceTree = "<group>"; };
+		46452B6E1BD528495C02EA40 /* Pods-MMRSSReaderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMRSSReaderTests-resources.sh"; sourceTree = "<group>"; };
+		4AD68237A7076199F238B676 /* libPods-MMRSSReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMRSSReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D604FC3660FDBC93EA32D8C /* Pods-MMRSSReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMRSSReader.release.xcconfig"; sourceTree = "<group>"; };
+		5400A5F4609D48DDC285F82F /* TBXML+Compression.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBXML+Compression.m"; path = "TBXML-Code/TBXML+Compression.m"; sourceTree = "<group>"; };
+		540CEDE857BFE32C5C5268D1 /* Pods-MMRSSReaderTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMRSSReaderTests-environment.h"; sourceTree = "<group>"; };
+		5A5AC0FD3B2164F00805944D /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		5E44943D698970ACBA505EA5 /* Pods-MMRSSReaderTests-TBXML-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMRSSReaderTests-TBXML-Private.xcconfig"; path = "../Pods-MMRSSReaderTests-TBXML/Pods-MMRSSReaderTests-TBXML-Private.xcconfig"; sourceTree = "<group>"; };
+		5F41107CF10B082595595928 /* Pods-MMRSSReaderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMRSSReaderTests-dummy.m"; sourceTree = "<group>"; };
+		651DC12BBE8AADA5CD556711 /* Pods-MMRSSReader-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMRSSReader-resources.sh"; sourceTree = "<group>"; };
+		6BA13324571356BBB11236D1 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C6819B86B2888AC3586BC49 /* Pods-MMRSSReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMRSSReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		793AE44D5CD2EBB8404AA390 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A05E2C00578EF7BAF599D73 /* Pods-TBXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBXML.xcconfig"; path = "../Pods-TBXML/Pods-TBXML.xcconfig"; sourceTree = "<group>"; };
+		8D895F85061D5E0D4E8725F0 /* TBXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBXML.m; path = "TBXML-Code/TBXML.m"; sourceTree = "<group>"; };
+		8DF45E72821F202D30D3004B /* Pods-MMRSSReaderTests-TBXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-MMRSSReaderTests-TBXML-dummy.m"; path = "../Pods-MMRSSReaderTests-TBXML/Pods-MMRSSReaderTests-TBXML-dummy.m"; sourceTree = "<group>"; };
+		928A1D9234997BD22A7001B6 /* TBXML+HTTP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBXML+HTTP.m"; path = "TBXML-Code/TBXML+HTTP.m"; sourceTree = "<group>"; };
+		996CBAD8FB19F20C0C51D7EC /* libPods-MMRSSReaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMRSSReaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2125F424897B2EAA79264CF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6D7C6ED7814199CCED77506 /* Pods-MMRSSReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMRSSReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5493756F3E96912E383A7A5 /* Pods-MMRSSReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMRSSReader-dummy.m"; sourceTree = "<group>"; };
+		C12A741611BCC769F8DC0160 /* Pods-MMRSSReader-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMRSSReader-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C95036DED3401B30A92E9497 /* Pods-MMRSSReaderTests-TBXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMRSSReaderTests-TBXML.xcconfig"; path = "../Pods-MMRSSReaderTests-TBXML/Pods-MMRSSReaderTests-TBXML.xcconfig"; sourceTree = "<group>"; };
+		D06366AEEEA8B0E431FC3C04 /* Pods-MMRSSReader-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMRSSReader-environment.h"; sourceTree = "<group>"; };
+		D12EA594EA4A53B8D58DED6B /* TBXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBXML.h; path = "TBXML-Headers/TBXML.h"; sourceTree = "<group>"; };
+		E05E0A8F4D353457803165CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E49065CD3AD003C07832BCCC /* Pods-MMRSSReader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMRSSReader-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6AF396FB68C117A400BCE72 /* Pods-TBXML-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBXML-Private.xcconfig"; path = "../Pods-TBXML/Pods-TBXML-Private.xcconfig"; sourceTree = "<group>"; };
+		F0B8F4DB8731C75B303C496F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F837350389CD34EF8AA0BFC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		FC038CD48DD897CFC05BDDAE /* libPods-MMRSSReader-TBXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MMRSSReader-TBXML.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EDB29B748C740A1C29A0CB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6CBF7A8259CBD45C58B725 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C9A77557601944F494E6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C554788EC7B8027E45697D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1722CFC68806FBF6D32489B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9C986BCFDAA9ECA1497853 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAE40785B005E2BA9353F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F81052A7E84408A927DE75F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FA46CE097F5E31EE1E8BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DAEEC5782F29737A7EE4FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECE7FC07B9823BFE30A9CD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6495A769043469E78283D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0989CEB489F3899C6038F46B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F0B8F4DB8731C75B303C496F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		218212A053CCA4265BC16AA4 = {
+			isa = PBXGroup;
+			children = (
+				A2125F424897B2EAA79264CF /* Podfile */,
+				77AED58EBF0A4F5C9D3002B5 /* Frameworks */,
+				A7F3B94224F624D1D0C9AF74 /* Pods */,
+				659F55CC86EB04F94B627B2D /* Products */,
+				69A42100601A6EF9B9B6256A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		3203AC3E79F1D84E15A5F4EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BA13324571356BBB11236D1 /* Pods-acknowledgements.markdown */,
+				358A64E23B75202A7C0E9BA8 /* Pods-acknowledgements.plist */,
+				07C5D5829BBA1F867B6321EA /* Pods-dummy.m */,
+				3BAD6B6A4EB9BC2E55FFDAA8 /* Pods-environment.h */,
+				5A5AC0FD3B2164F00805944D /* Pods-resources.sh */,
+				F837350389CD34EF8AA0BFC7 /* Pods.debug.xcconfig */,
+				E05E0A8F4D353457803165CC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		5D088C1BA524EBAEDF791684 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				154BAA263579F0EEF1FB528B /* Pods-MMRSSReader-TBXML.xcconfig */,
+				0B66A47D39B6A7DE7309C901 /* Pods-MMRSSReader-TBXML-Private.xcconfig */,
+				09D1A13BE0BB4DD3CB63F584 /* Pods-MMRSSReader-TBXML-dummy.m */,
+				0B896332FDB834D39FDB6BF3 /* Pods-MMRSSReader-TBXML-prefix.pch */,
+				C95036DED3401B30A92E9497 /* Pods-MMRSSReaderTests-TBXML.xcconfig */,
+				5E44943D698970ACBA505EA5 /* Pods-MMRSSReaderTests-TBXML-Private.xcconfig */,
+				8DF45E72821F202D30D3004B /* Pods-MMRSSReaderTests-TBXML-dummy.m */,
+				1CE910338ABA9F807C70F55D /* Pods-MMRSSReaderTests-TBXML-prefix.pch */,
+				7A05E2C00578EF7BAF599D73 /* Pods-TBXML.xcconfig */,
+				E6AF396FB68C117A400BCE72 /* Pods-TBXML-Private.xcconfig */,
+				414A958BAD708DE781530A65 /* Pods-TBXML-dummy.m */,
+				25BEBF576CC55BDF10493893 /* Pods-TBXML-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MMRSSReader-TBXML";
+			sourceTree = "<group>";
+		};
+		659F55CC86EB04F94B627B2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				793AE44D5CD2EBB8404AA390 /* libPods.a */,
+				4AD68237A7076199F238B676 /* libPods-MMRSSReader.a */,
+				FC038CD48DD897CFC05BDDAE /* libPods-MMRSSReader-TBXML.a */,
+				996CBAD8FB19F20C0C51D7EC /* libPods-MMRSSReaderTests.a */,
+				1D718C2484C8B69A90403954 /* libPods-MMRSSReaderTests-TBXML.a */,
+				1566C0E170D3423D41528849 /* libPods-TBXML.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		692D294AB0DAC1F1DADFF33B /* Pods-MMRSSReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DC98530A2DE5E9FDBC607BE /* Pods-MMRSSReaderTests-acknowledgements.markdown */,
+				051862EE259E5B0AF0DE2571 /* Pods-MMRSSReaderTests-acknowledgements.plist */,
+				5F41107CF10B082595595928 /* Pods-MMRSSReaderTests-dummy.m */,
+				540CEDE857BFE32C5C5268D1 /* Pods-MMRSSReaderTests-environment.h */,
+				46452B6E1BD528495C02EA40 /* Pods-MMRSSReaderTests-resources.sh */,
+				A6D7C6ED7814199CCED77506 /* Pods-MMRSSReaderTests.debug.xcconfig */,
+				6C6819B86B2888AC3586BC49 /* Pods-MMRSSReaderTests.release.xcconfig */,
+			);
+			name = "Pods-MMRSSReaderTests";
+			path = "Target Support Files/Pods-MMRSSReaderTests";
+			sourceTree = "<group>";
+		};
+		69A42100601A6EF9B9B6256A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3203AC3E79F1D84E15A5F4EB /* Pods */,
+				A851E3DE1160B8D7FBEA6AB0 /* Pods-MMRSSReader */,
+				692D294AB0DAC1F1DADFF33B /* Pods-MMRSSReaderTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		77AED58EBF0A4F5C9D3002B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0989CEB489F3899C6038F46B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7F3B94224F624D1D0C9AF74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C81AF09A8AC7E173AABA110D /* TBXML */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A851E3DE1160B8D7FBEA6AB0 /* Pods-MMRSSReader */ = {
+			isa = PBXGroup;
+			children = (
+				C12A741611BCC769F8DC0160 /* Pods-MMRSSReader-acknowledgements.markdown */,
+				E49065CD3AD003C07832BCCC /* Pods-MMRSSReader-acknowledgements.plist */,
+				B5493756F3E96912E383A7A5 /* Pods-MMRSSReader-dummy.m */,
+				D06366AEEEA8B0E431FC3C04 /* Pods-MMRSSReader-environment.h */,
+				651DC12BBE8AADA5CD556711 /* Pods-MMRSSReader-resources.sh */,
+				18D9169C3FCC8EBCA2CC0868 /* Pods-MMRSSReader.debug.xcconfig */,
+				4D604FC3660FDBC93EA32D8C /* Pods-MMRSSReader.release.xcconfig */,
+			);
+			name = "Pods-MMRSSReader";
+			path = "Target Support Files/Pods-MMRSSReader";
+			sourceTree = "<group>";
+		};
+		C81AF09A8AC7E173AABA110D /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				D12EA594EA4A53B8D58DED6B /* TBXML.h */,
+				8D895F85061D5E0D4E8725F0 /* TBXML.m */,
+				330EAAADF1B94ABCCEFC0202 /* TBXML+Compression.h */,
+				5400A5F4609D48DDC285F82F /* TBXML+Compression.m */,
+				0358C9C2276ECFD87070D681 /* TBXML+HTTP.h */,
+				928A1D9234997BD22A7001B6 /* TBXML+HTTP.m */,
+				5D088C1BA524EBAEDF791684 /* Support Files */,
+			);
+			path = TBXML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6521B8CE90FDE2EB40AFEA59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8451D77C9040894B64D7765 /* TBXML+Compression.h in Headers */,
+				9006045CE6DA8594D45E889A /* TBXML+HTTP.h in Headers */,
+				9BBACA354F802607DC50CF4F /* TBXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A952C9C8AA07AA93416B4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0434C792BEF0825F48D4A7A0 /* TBXML+Compression.h in Headers */,
+				08BACF6A228A421BA4E4FEF8 /* TBXML+HTTP.h in Headers */,
+				0AB6DB9C18F5905CAD045B6F /* TBXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34EC0944C7EF7CA3EC9BE0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5891CD53B6EBDF3E1878F0 /* TBXML+Compression.h in Headers */,
+				E5A72D773253F1D4EF2DF71F /* TBXML+HTTP.h in Headers */,
+				F28338F8A378790F51F4A8B4 /* TBXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08654D567AC378F412C0EFE7 /* Pods-MMRSSReader-TBXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD72E0152B7A5D7FACEDF8D /* Build configuration list for PBXNativeTarget "Pods-MMRSSReader-TBXML" */;
+			buildPhases = (
+				35B8206AA53C67B5E1420BED /* Sources */,
+				0EDB29B748C740A1C29A0CB7 /* Frameworks */,
+				F34EC0944C7EF7CA3EC9BE0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MMRSSReader-TBXML";
+			productName = "Pods-MMRSSReader-TBXML";
+			productReference = FC038CD48DD897CFC05BDDAE /* libPods-MMRSSReader-TBXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2BFDB7A2AA4A9CE20CBA392B /* Pods-MMRSSReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1997F718B1E0E140557779AA /* Build configuration list for PBXNativeTarget "Pods-MMRSSReader" */;
+			buildPhases = (
+				B43E419AEE2FB56424A37150 /* Sources */,
+				B2FA46CE097F5E31EE1E8BF4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E07E48567DD6B6784617E6E /* PBXTargetDependency */,
+			);
+			name = "Pods-MMRSSReader";
+			productName = "Pods-MMRSSReader";
+			productReference = 4AD68237A7076199F238B676 /* libPods-MMRSSReader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		31CDC6C05DAF5FD7643A871D /* Pods-MMRSSReaderTests-TBXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F255C053A1361B8A023B8BFC /* Build configuration list for PBXNativeTarget "Pods-MMRSSReaderTests-TBXML" */;
+			buildPhases = (
+				D0474804263E74929709E125 /* Sources */,
+				12C9A77557601944F494E6F7 /* Frameworks */,
+				6521B8CE90FDE2EB40AFEA59 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MMRSSReaderTests-TBXML";
+			productName = "Pods-MMRSSReaderTests-TBXML";
+			productReference = 1D718C2484C8B69A90403954 /* libPods-MMRSSReaderTests-TBXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		321CD58A29866691778898EC /* Pods-TBXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083A86CBA3C90B4AEF8A20C0 /* Build configuration list for PBXNativeTarget "Pods-TBXML" */;
+			buildPhases = (
+				4D2998236BE6BF7927B8DB15 /* Sources */,
+				1722CFC68806FBF6D32489B0 /* Frameworks */,
+				82A952C9C8AA07AA93416B4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TBXML";
+			productName = "Pods-TBXML";
+			productReference = 1566C0E170D3423D41528849 /* libPods-TBXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA55A709EEC9EE7C09DFE614 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6247F2E923599E4282DB106 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				CE0D7238AF131C1BC12957C5 /* Sources */,
+				CECE7FC07B9823BFE30A9CD0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DE8E7DC71E4C6620E0C51F5 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 793AE44D5CD2EBB8404AA390 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DBDD0D5D4063B7E5F21CA3F1 /* Pods-MMRSSReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAB599C56043950DDD6E870 /* Build configuration list for PBXNativeTarget "Pods-MMRSSReaderTests" */;
+			buildPhases = (
+				9489227C6069AB777470E890 /* Sources */,
+				1BAE40785B005E2BA9353F6A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2813426A4FC7F1CA2EC41EE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-MMRSSReaderTests";
+			productName = "Pods-MMRSSReaderTests";
+			productReference = 996CBAD8FB19F20C0C51D7EC /* libPods-MMRSSReaderTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA955D876F63BBF6EF02D1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 1E08257E316BEDA447137F32 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 218212A053CCA4265BC16AA4;
+			productRefGroup = 659F55CC86EB04F94B627B2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA55A709EEC9EE7C09DFE614 /* Pods */,
+				2BFDB7A2AA4A9CE20CBA392B /* Pods-MMRSSReader */,
+				08654D567AC378F412C0EFE7 /* Pods-MMRSSReader-TBXML */,
+				DBDD0D5D4063B7E5F21CA3F1 /* Pods-MMRSSReaderTests */,
+				31CDC6C05DAF5FD7643A871D /* Pods-MMRSSReaderTests-TBXML */,
+				321CD58A29866691778898EC /* Pods-TBXML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35B8206AA53C67B5E1420BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448C0DE4FAE055D12C909152 /* Pods-MMRSSReader-TBXML-dummy.m in Sources */,
+				092AD33F90DA88A5F78A18DC /* TBXML+Compression.m in Sources */,
+				ED0CD05A73FF386927D115F2 /* TBXML+HTTP.m in Sources */,
+				29B63F3E1125F4F76219257B /* TBXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2998236BE6BF7927B8DB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E550E7D3A8DFB2BE2ED4A1 /* Pods-TBXML-dummy.m in Sources */,
+				1A87ABC025531DC65AFF822C /* TBXML+Compression.m in Sources */,
+				0BE3BDDEF5D7E9C0E85A4BB5 /* TBXML+HTTP.m in Sources */,
+				1D2E71976F94F955973BED06 /* TBXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9489227C6069AB777470E890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F20F41AF2F3FB7803CC294B /* Pods-MMRSSReaderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43E419AEE2FB56424A37150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D732E29E35647746DDD3BF9 /* Pods-MMRSSReader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0D7238AF131C1BC12957C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325AC1FB16FD8182425A0F2B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0474804263E74929709E125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E2293FEE21EBD87E9C4A16 /* Pods-MMRSSReaderTests-TBXML-dummy.m in Sources */,
+				43C90F551178FEEB3B356C33 /* TBXML+Compression.m in Sources */,
+				EAB64C679F839C8190EEFA14 /* TBXML+HTTP.m in Sources */,
+				A6ED3576CE980B83DA9BE3B2 /* TBXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2813426A4FC7F1CA2EC41EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31CDC6C05DAF5FD7643A871D /* Pods-MMRSSReaderTests-TBXML */;
+			targetProxy = 81BECD013626B04E2C67E970 /* PBXContainerItemProxy */;
+		};
+		2DE8E7DC71E4C6620E0C51F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 321CD58A29866691778898EC /* Pods-TBXML */;
+			targetProxy = 6BD97E11B2C871597D4839A1 /* PBXContainerItemProxy */;
+		};
+		9E07E48567DD6B6784617E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08654D567AC378F412C0EFE7 /* Pods-MMRSSReader-TBXML */;
+			targetProxy = EE3ED09B02C4EAC5F831FBA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F84DD268CCD17F225C2E84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AF396FB68C117A400BCE72 /* Pods-TBXML-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TBXML/Pods-TBXML-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		26E6E03C737A4459843C382E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F837350389CD34EF8AA0BFC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		406B1D47F496260075DF97CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D604FC3660FDBC93EA32D8C /* Pods-MMRSSReader.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		531786C9674A507BEAA89015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		5D805D92099DD1665336CD58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18D9169C3FCC8EBCA2CC0868 /* Pods-MMRSSReader.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5FAC5A6FCC3A7E9C09FBAD3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B66A47D39B6A7DE7309C901 /* Pods-MMRSSReader-TBXML-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MMRSSReader-TBXML/Pods-MMRSSReader-TBXML-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		610A7E97DE3BF64CABC16B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E44943D698970ACBA505EA5 /* Pods-MMRSSReaderTests-TBXML-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MMRSSReaderTests-TBXML/Pods-MMRSSReaderTests-TBXML-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6A33C26EF62BD1D3B79B6EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6D7C6ED7814199CCED77506 /* Pods-MMRSSReaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8BEE454354A8FE3BAB067E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AF396FB68C117A400BCE72 /* Pods-TBXML-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TBXML/Pods-TBXML-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC262EA855B5F1FD0100CC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E44943D698970ACBA505EA5 /* Pods-MMRSSReaderTests-TBXML-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MMRSSReaderTests-TBXML/Pods-MMRSSReaderTests-TBXML-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC62B8A8CABA2697580CCC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6819B86B2888AC3586BC49 /* Pods-MMRSSReaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE6F3FB373F78E9F3924DF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2BD6F37E0CB2DF0528E0E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E05E0A8F4D353457803165CC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB481F0C0CC85A29D54B32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B66A47D39B6A7DE7309C901 /* Pods-MMRSSReader-TBXML-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MMRSSReader-TBXML/Pods-MMRSSReader-TBXML-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083A86CBA3C90B4AEF8A20C0 /* Build configuration list for PBXNativeTarget "Pods-TBXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F84DD268CCD17F225C2E84F /* Debug */,
+				8BEE454354A8FE3BAB067E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1997F718B1E0E140557779AA /* Build configuration list for PBXNativeTarget "Pods-MMRSSReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D805D92099DD1665336CD58 /* Debug */,
+				406B1D47F496260075DF97CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E08257E316BEDA447137F32 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				531786C9674A507BEAA89015 /* Debug */,
+				DE6F3FB373F78E9F3924DF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAB599C56043950DDD6E870 /* Build configuration list for PBXNativeTarget "Pods-MMRSSReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A33C26EF62BD1D3B79B6EE5 /* Debug */,
+				DC62B8A8CABA2697580CCC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD72E0152B7A5D7FACEDF8D /* Build configuration list for PBXNativeTarget "Pods-MMRSSReader-TBXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB481F0C0CC85A29D54B32F /* Debug */,
+				5FAC5A6FCC3A7E9C09FBAD3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6247F2E923599E4282DB106 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E6E03C737A4459843C382E /* Debug */,
+				E2BD6F37E0CB2DF0528E0E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F255C053A1361B8A023B8BFC /* Build configuration list for PBXNativeTarget "Pods-MMRSSReaderTests-TBXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610A7E97DE3BF64CABC16B08 /* Debug */,
+				AC262EA855B5F1FD0100CC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA955D876F63BBF6EF02D1E /* Project object */;
+}

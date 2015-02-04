@@ -1,0 +1,22 @@
+/* 
+  Localization.strings
+  MMRSSReader
+
+  Created by Hariprasad on 03/02/15.
+  Copyright (c) 2015 Hariprasad. All rights reserved.
+*/
+"Favourites" = "Favourites";
+"Feeds" = "Feeds";
+"No Feeds Available" = "No Feeds Available";
+"New RSS Source" = "New RSS Source";
+"Eneter title and URL for this RSS source" = "Eneter title and URL for this RSS source";
+"Enter a title" = "Enter a title";
+"Enter the URL" = "Enter the URL";
+"Cancel" = "Cancel";
+"Error" = "Error";
+"Please enter valid values" = "Please enter valid values";
+"OK" = "OK";
+"Save" = "Save";
+"No Internet Connection" = "No Internet Connection";
+"Please connecte to an internet network to read this feed" = "Please connecte to an internet network to read this feed";
+"An error occured while loading this feed." = "An error occured while loading this feed.";

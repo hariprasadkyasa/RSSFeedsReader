@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C278179B-2433-4B7F-ADCE-868AE4B3F132</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2D7AC11DD5FC3A84CD12586B93D16AFD30B67650</key>
+		<string>https://github.com/hariprasadkyasa/MMRSSReader.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2D7AC11DD5FC3A84CD12586B93D16AFD30B67650</key>
+		<string>MMRSSReader/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hariprasadkyasa/MMRSSReader.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2D7AC11DD5FC3A84CD12586B93D16AFD30B67650</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2D7AC11DD5FC3A84CD12586B93D16AFD30B67650</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MMRSSReader</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,21 @@
+The application is navigation based app.There are 2 table view controllers to diplay RSS feed information (channels ans items).A view controller with webview is used to load the RSSfeed URL.
+The app is designed as universal application and runs on all iOS devices.It uses adaptive layouts & supports both Potrait and Landscape orientations on all devices.
+All navigation transitions are handled in Story Board using Segues.
+The app by default have 3 default feed sources (RSSFEED URLs) which appears in the first screen.When user taps on one of these 3 items,app calls corresponding URL to fetch the updated feeds from that source.
+NSURLSession is used to make service calls as we can shcedule multiple fetch tasks on the same session with out using NSOperation and NSOperationQueue.
+I have Used TBXML to parse the rss response.I thought of writing my own parsing logic using NSXMLParser but the TBXML is found to light weight and very fast among the available parsers in iOS(http://www.raywenderlich.com/553/xml-tutorial-for-ios-how-to-choose-the-best-xml-parser-for-your-iphone-project).
+Used Cocoa Pods to integrate the TBXML library.So please use .workspace while opening the project.
+The parsed RSS data is saved in the Core Data for offline use.
+Used relations (one to many and recursive with Cascade delete) to link channels and items.
+I have used NSFetchResultsController for retrieving feed items data as we dont have to notify the controller when ever data is updated.A delegate method, of NSFetchedResultsController is called when there is any kind of data transaction in core data, from where you can reload particular cell or entire table.Also NSFetchedResultsController fetches the data incrementally on demand which is most common case in news app like RSSReader.
+User can add and save his own RSSFeed URLs ('+' button on right top corner in favourites screen) which appears in the Favourites screen along with the default entries.
+The application is localized for english and spanish language (i dint test it properly due to time constrant)
+Have used a third party Category on NSString which is written in non-ARC so disabled the ARC for those files in the project settings.
+Used latest 8.1 SDK while coding this app,deployment target is also 8.1.
+
+Some Known Issues which i could not work on in the available time line
+----------------------------------------------------------------------
+
+Date properties of RSSFeeds are now NSStrings have to make them NSDates in order to achieve sorting.
+
+Have not included support for displaying images if any RSSItem have image link.Planned to download the images asynchronously and show on the table cell but could not get time to work on it.
